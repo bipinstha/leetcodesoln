@@ -1,2 +1,2 @@
-# leetcodesoln
-This repository contains the leetcode problem solutions.
+# LEET CODE SOLUTION
+Plain Java code base which runs on any JVM 
