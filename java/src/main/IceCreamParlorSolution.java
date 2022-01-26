@@ -5,6 +5,10 @@ import com.sun.tools.javac.util.Assert;
 
 import java.util.Arrays;
 
+/***
+ * In a Icecream parlor there are different flavor or Icecream with different price tag on it.
+ * Given $X, now you need to find the maximum flavor of Icecream for me.
+ */
 public class IceCreamParlorSolution {
 
     public static void main(String[] args) {
@@ -18,6 +22,12 @@ public class IceCreamParlorSolution {
         Assert.check(4 == solution(parlorDPrice, 15));
     }
 
+    /***
+     *
+     * @param prices prices of different flavor of icecream
+     * @param amount $X in my pocket
+     * @return number of different flavor
+     */
     public static int solution(int[] prices, int amount) {
         int noOfItem = 0;
         int[] sortedPrice = prices.clone();
