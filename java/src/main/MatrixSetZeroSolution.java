@@ -3,7 +3,7 @@ package main;
 import java.util.HashSet;
 import java.util.Set;
 
-public class MatrixSetZero {
+public class MatrixSetZeroSolution {
 
     public static void main(String[] args) {
 
